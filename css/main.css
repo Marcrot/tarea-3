@@ -1,0 +1,79 @@
+.header_nav {
+    background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100%;
+  }
+  
+  .global_nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+  
+  .global_nav_item {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  .pie_pagina{
+    background-color: black;
+    padding-bottom: 8px;
+  }
+  
+  footer.pie_pagina p{
+    font-size: small;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .items_pie{
+    display: flex;
+    justify-content: center;
+  }
+  
+  a.lista_foot li{
+    color: white;
+    list-style: disc;
+    list-style-type: disc;
+    text-align: center;
+    font-size: medium;
+    padding: 0%;
+  }
+  
+  .lista_foot{
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: dashed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .logo_pie{
+    width: 80px;
+  }
